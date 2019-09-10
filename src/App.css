@@ -1,33 +1,90 @@
-.App {
+/* .App {
   text-align: center;
+} */
+
+.header {
+  background-color: lightgoldenrodyellow;
+  padding: 20px;
+  margin-top: 8px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.username {
+  background-color: black;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 10%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.username-input {
+  background-color: crimson;
+  padding: 10%;
+}
+
+.username-button {
+  margin-top: 10px;
+}
+
+.logo {
+  font-size: 125%;
+}
+
+.room {
+  text-decoration: none;
+  margin: 15px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.room-li {
+  margin: 15px;
+  margin-bottom: 30px;
+}
+
+.room-list {
+  margin-left: 15px;
+  /* margin-top: 30px; */
+  background-color: crimson;
+}
+
+.msg {
+  margin-bottom: 20px;
+}
+
+.message-text {
+  background-color: white;
+  /* width: 8%;
+  height: 10%; */
+}
+
+.message-username {
+  text-decoration: underline;
+}
+
+.message-list {
+  margin-right: 15px;
+  /* margin-top: 30px; */
+  background-color: crimson;
+}
+
+.roomactive {
+  margin: 15px;
+  margin-bottom: 30px;
+
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.new-room {
+  margin-left: 15px;
+  background-color: crimson;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.new-room-input {
+  width: 80%;
+}
+
+.send-message {
+  width: 100%;
+  margin-right: 15px;
+  /* margin-left: 15px; */
+  background-color: crimson;
 }

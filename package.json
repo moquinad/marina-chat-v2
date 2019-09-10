@@ -3,14 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "@pusher/chatkit-client": "^1.0.2",
+    "@pusher/chatkit-server": "^1.0.1",
+    "bulma": "^0.7.5",
+    "cors": "^2.8.4",
+    "emoji-mart": "^2.11.1",
+    "express": "^4.16.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"node ./server.js\" \"react-scripts start\"",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
