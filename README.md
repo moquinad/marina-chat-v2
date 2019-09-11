@@ -1,5 +1,20 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## To Get Started
+
+After cloning or downloading the repo, run npm install in the directory in which you placed the files. 
+
+This project uses the following dependencies:
+
+* Express
+* React & ReactDOM
+* cors
+* Bulma (for styling)
+* @pusher/chatkit-client
+* @pusher/chatkit-server
+* emoji-mart
+* concurrently (as a dev dependency to run the express server and the react scripts at the same time with one command)
+
 ## Available Scripts
 
 In the project directory, you can run:
